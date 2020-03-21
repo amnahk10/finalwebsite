@@ -12,3 +12,55 @@ h1{
   color: #B885D5;
   border: 5px dashed black; 
 }
+}
+.bigheading {
+  font-size: 100px;
+  color: #85A9D5
+}
+  .hobbies {
+    font-size: 75px;
+    color: #85A9D5
+}
+
+
+h1{
+  font-style: italic; 
+  font-size: 50px;
+  color: #B885D5;
+  border: 5px dashed black;
+  animation-name: h1anim;
+  animation-duration: 4s; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes h1anim {
+  0% {color: black;}
+  50% {color: #BFB2EA;}
+  100% {color: black;}
+
+
+}
+
+.navigation {
+  overflow: hidden;
+  background-color: #000000
+}
+ 
+.navigation a { 
+  float: left; 
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navigation a:hover {
+  background-color: #BCB6B6;
+  color: #F15353
+}
+
+.navigation a.active {
+  background-color: #FFFFF
+}
